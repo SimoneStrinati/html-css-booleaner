@@ -1,7 +1,6 @@
 body {
-  font-family: sans-serif;
+  font-family: serif;
   margin: 0;
-
 }
 
 
@@ -9,21 +8,35 @@ header {
   background-image: url("./img/pattern.png");
   background-color: rgb(24, 122, 235);
   font-family: Arial, Helvetica, sans-serif;
-  height: 100px;
-  
+  height: 100px; 
 }
 
 #logo {
   height: 50px;
   margin-top: 50px;
   margin-left: 50px;
-  
 }
 
 .centratura {
   margin: 0 auto;
   width: 700px;
+}
 
+#nome-autore {
+  color: aqua;
+}
+
+#testo-piccolo {
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.spostamento {
+  margin: 0px;
+}
+
+.font-descrizione {
+  font-size: 12px;
 }
 
 table {
@@ -41,13 +54,24 @@ thead {
 .spaziatura-sinistra {
   margin: 130px;
 }
-
-.immagine-quadrato {
+.immagine-monitor {
   background-image: url("./img/monitor.jpg");
   background-size: cover;
   width: 100px;
   height: 100px;
   padding: 10px;
   color: white;
+}
+
+.immagine-grafico {
+  background-image: url("./img/graph.jpg");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+}
+
+.testo-foto {
+  font-size: 12px;
+  margin-top: 0px;
 }
 
